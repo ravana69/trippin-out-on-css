@@ -1,0 +1,11 @@
+@keyframes zoom {
+  to {
+    transform: scale(2) rotate(90deg);
+  }
+}
+div {
+  position: absolute;
+}
+#two {
+	animation: zoom 3s infinite alternate linear;
+}
